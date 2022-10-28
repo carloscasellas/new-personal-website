@@ -1,0 +1,21 @@
+:root{
+
+    --maroon: #5a0000;
+    --white: #ffffff;
+
+}
+
+body {
+
+    background-color: var(--maroon);
+    display: flex;
+
+}
+
+h1 {
+
+    margin: auto;
+    color: var(--white);
+    scale: 2;
+
+}
