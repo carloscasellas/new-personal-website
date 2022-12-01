@@ -8,7 +8,11 @@
 body {
 
     background-color: var(--maroon);
-    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
 
 }
 
@@ -16,6 +20,9 @@ h1 {
 
     margin: auto;
     color: var(--white);
-    scale: 2;
+    font-size: 3rem;
 
 }
+
+/* Navbar */
+
