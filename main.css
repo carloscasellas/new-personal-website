@@ -26,3 +26,10 @@ h1 {
 
 /* Navbar */
 
+.navButton {
+
+    --bs-btn-border-color: var(--white);
+    --bs-btn-color: var(--white);
+    --bs-btn-hover-bg: var(--maroon);
+
+}
