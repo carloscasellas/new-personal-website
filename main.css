@@ -28,7 +28,7 @@ body {
 
 /* Header */
 
-.header {
+#header {
 
     color: var(--white);
     display: flex;
@@ -39,7 +39,7 @@ body {
 }
 
 
-.header::after {
+#header::after {
 
     content: ' ';
     position: absolute;
@@ -55,7 +55,7 @@ body {
 }
 
 
-.header p {
+#header p {
 
     width: 75vh;
 
