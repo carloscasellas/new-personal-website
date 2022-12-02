@@ -16,32 +16,6 @@ body {
 
 }
 
-<<<<<<< HEAD
-=======
-h1 {
-
-    margin: auto;
-    color: var(--white);
-    font-size: xxx-large;
-
-}
-
-h2 {
-    margin: auto;
-    color: var(--white);
-    font-size: x-large;
-}
-
-p {
-    color: #d3d3d3;
-    font-size: 16px;
-}
-
-img {
-    border-radius: 50%;
-    width: 50%;
-}
->>>>>>> c8ca516e923babb1407d1ddfe5a934326325893c
 /* Navbar */
 
 .navButton {
