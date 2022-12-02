@@ -16,14 +16,6 @@ body {
 
 }
 
-h1 {
-
-    margin: auto;
-    color: var(--white);
-    font-size: 3rem;
-
-}
-
 /* Navbar */
 
 .navButton {
@@ -31,5 +23,49 @@ h1 {
     --bs-btn-border-color: var(--white);
     --bs-btn-color: var(--white);
     --bs-btn-hover-bg: var(--maroon);
+
+}
+
+/* Header */
+
+.header {
+
+    color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+
+}
+
+
+.header::after {
+
+    content: ' ';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: white;
+    isolation: isolate;
+    background-image: url("images/tamu.jpg");
+    background-size: cover;
+    opacity: .3;
+    height: 60vh;
+
+}
+
+
+.header p {
+
+    width: 75vh;
+
+}
+
+
+#headshot {
+
+    height: 30vh;
+    width: 30vh;
+    border-radius: 100%;
 
 }
