@@ -10,9 +10,9 @@ body {
     background-color: var(--maroon);
     height: 100vh;
     width: 100%;
-    background-position: center;
     background-repeat: repeat;
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -20,9 +20,24 @@ h1 {
 
     margin: auto;
     color: var(--white);
-    font-size: 3rem;
+    font-size: xxx-large;
 
 }
 
+h2 {
+    margin: auto;
+    color: var(--white);
+    font-size: x-large;
+}
+
+p {
+    color: #d3d3d3;
+    font-size: 16px;
+}
+
+img {
+    border-radius: 50%;
+    width: 50%;
+}
 /* Navbar */
 
