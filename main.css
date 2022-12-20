@@ -2,6 +2,7 @@
 
     --maroon: #5a0000;
     --white: #ffffff;
+    --light_maroon: #611111;
 
 }
 
@@ -45,7 +46,6 @@ body {
     position: absolute;
     z-index: -1;
     inset: 0;
-    background: white;
     isolation: isolate;
     background-image: url("images/tamu.jpg");
     background-size: cover;
@@ -67,5 +67,25 @@ body {
     height: 30vh;
     width: 30vh;
     border-radius: 100%;
+
+}
+
+/* Footer */
+
+#footer-container {
+
+    background-color: var(--light_maroon);
+
+}
+
+.footerBtn {
+
+    color: white;
+
+}
+
+.footerBtn:hover {
+
+    --bs-btn-hover-bg: var(--maroon);
 
 }
