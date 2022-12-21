@@ -3,6 +3,7 @@
     --maroon: #5a0000;
     --white: #ffffff;
     --light_maroon: #611111;
+    --gray: #cccccc;
 
 }
 
@@ -80,12 +81,18 @@ body {
 
 .footerBtn {
 
-    color: white;
+    color: var(--gray);
 
 }
 
 .footerBtn:hover {
 
-    --bs-btn-hover-bg: var(--maroon);
+    color: white;
+
+}
+
+#bottomFooter {
+
+    color: var(--gray);
 
 }
