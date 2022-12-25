@@ -71,6 +71,34 @@ body {
 
 }
 
+/* Experiences */
+
+#experiences {
+
+    height: 150vh;
+    margin: 10vh;
+    align-items: center;
+
+}
+
+#expContainer {
+
+    background-color: var(--light_maroon);
+    border-radius: 25%;
+    height: 90%;
+    text-align: center;
+    color: var(--white);
+    padding: 10vh 0 10vh 0;
+
+}
+
+#expBox {
+
+    display: flex;
+    height: 90%;
+
+}
+
 /* Footer */
 
 #footer-container {
