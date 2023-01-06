@@ -92,10 +92,10 @@ body {
 
 }
 
-#expBox {
+.experienceImage {
 
-    display: flex;
-    height: 90%;
+    height: 70vh;
+    width: 70vh;
 
 }
 
