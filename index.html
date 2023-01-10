@@ -44,33 +44,62 @@
 
         <!-- Experiences -->
 
+        
+        <!-- <h1>Experiences</h1> -->
+
         <div id="experiences">
 
             <div id="expContainer">
 
-                <h1>Experiences</h1>
+                <div class="exp-carousel">
+                    <button class="exp-carousel__button exp-carousel__button--left is-hidden">
+                        <img src="images/left.svg" alt="">
+                    </button>
+                    <div class="exp-carousel__track-container">
+                        <ul class="exp-carousel__track">
+                            <li class="exp-carousel__slide exp-current-slide">
+                                <div class="exp-carousel__slide-content">
 
-                <button class="carouselButton"></button>
-                <div class="carouselTrackContainer"></div>
-                <ul class="carouselTrack">
+                                    <h3>Played Frisbee</h3>
 
-                    <li class="carouselSlide">
+                                    <img class="exp-carousel__image" src="images/catch.jpg" alt="">
 
-                        <div class="exprerienceContent" id="expOne">
+                                    <p>I played frisbee at Aggie Park. I love being around my fellow ags!</p>
 
-                            <h2>Tried Treats</h2>
-                            <img class="experienceImage" src="images/treats.png" alt="">
-                            <p>I tried treats for the first time and they were amazing. 10/10 recommend it every day.</p>
+                                </div>
+                            </li>
+                            <li class="exp-carousel__slide">
+                                <div class="exp-carousel__slide-content">
 
-                        </div>
+                                    <h3>Ate Treats</h3>
 
-                    </li>
-                    <li class="carouselSlide"></li>
-                    <li class="carouselSlide"></li>
+                                    <img class="exp-carousel__image" src="images/treats.jpg" alt="">
 
-                </ul>
-                <button class="carouselButton"></button>
+                                    <p>I ate treats that my owner gave me. They tasted amazing! 10/10 recommend treats.</p>
+                                </div>
 
+                            </li>
+                            <li class="exp-carousel__slide">
+                                <div class="exp-carousel__slide-content">
+
+                                    <h3>Went on a Walk</h3>
+
+                                    <img class="exp-carousel__image" src="images/walkRev.jpg" alt="">
+
+                                    <p>I went on a walk around campus and enjoyed the beautiful scenery. Shoutout to the engineers at Zachry!</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="exp-carousel__button exp-carousel__button--right">
+                        <img src="images/right.svg" alt="">
+                    </button>
+                    <div class="exp-carousel__nav">
+                        <button class="exp-carousel__indicator exp-current-slide"></button>
+                        <button class="exp-carousel__indicator"></button>
+                        <button class="exp-carousel__indicator"></button>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -99,6 +128,7 @@
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
 
     </body>
 </html>
