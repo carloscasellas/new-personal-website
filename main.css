@@ -25,6 +25,7 @@ h1 {
     letter-spacing: .5em;  
     text-align: center;
     padding: .4em .6em;
+    color: white;
 }
 
 h2 {
@@ -455,6 +456,54 @@ h2 {
 .proj-carousel__indicator.proj-current-slide {
 
     background: rgba(255, 255, 255, 0.9);
+
+}
+
+/* Skills */
+
+#skills {
+
+    height: 90vh;
+    margin: auto;
+
+}
+
+#skills-container {
+
+    height: 70vh;
+    width: auto;
+    background-color: var(--light_maroon);  
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    color: white;
+    text-align: center;
+
+}
+
+#skills-block-container {
+
+    display: flex;
+    height: 70%;
+    align-items: center;
+    
+}
+
+.skills-block {
+
+    margin: auto;
+    padding: 15px;
+    border: solid 2px white;
+    border-radius: 25%;
+    background-color: var(--maroon);
+
+}
+
+.skills-block img {
+
+    height: 20vh;
+    width: 20vh;
+    object-fit: fill;
+    border-radius: 25%;
 
 }
 
