@@ -18,6 +18,21 @@ body {
 
 }
 
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: .5em;  
+    text-align: center;
+    padding: .4em .6em;
+}
+
+h2 {
+
+    font-size: 2.5em;
+
+}
+
 /* Navbar */
 
 .navButton {
@@ -37,6 +52,8 @@ body {
     justify-content: space-evenly;
     align-items: center;
     height: 50vh;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
 
 }
 
@@ -51,7 +68,8 @@ body {
     background-image: url("images/tamu.jpg");
     background-size: cover;
     opacity: .3;
-    height: 60vh;
+    height: 50vh;
+    transform: translateY(53.6px);
 
 }
 
@@ -69,6 +87,7 @@ body {
     height: 30vh;
     width: 30vh;
     border-radius: 100%;
+    border: solid white 2px;
 
 }
 
@@ -79,24 +98,21 @@ body {
     height: 100vh;
     margin: 10vh;
     justify-content: center;
-    display: flex;
-
+    color: var(--white);
 }
+
+
 
 #expContainer {
 
     background-color: var(--light_maroon);
     border-radius: 25%;
-    height: 90vh;
+    height: 85vh;
     width: 105vh;
     text-align: center;
     padding: 5vh 5vh 5vh 5vh;
     color: var(--white);
-
-}
-
-#expContainer h1 {
-
+    border: solid 1px white;
     margin: auto;
 
 }
@@ -136,6 +152,7 @@ body {
     height: 100%;
     border-radius: 25%;
     object-fit: cover;
+    border: solid 2px white;
 
 }
 
@@ -231,14 +248,14 @@ body {
 
 /* Education */
 
-.education {
+#education {
     margin: 1em 0;
 }
 
 .education-container {
     background: var(--light_maroon);
     color: white;
-    height: 50vh;
+    height: 70vh;
     width: auto;
     padding: 1em;
     border-top: 1px solid white;
@@ -253,7 +270,7 @@ body {
     text-align: center;
     padding: .4em .6em;
     display: block;
-    }
+}
 
 .edu-content {
     display: flex;
@@ -263,7 +280,7 @@ body {
 
  .edu-content img {
     width: 20em;
-    height: 17em;
+    height: 20em;
     border-radius: 50%;
     border: 5px solid white;
 }
@@ -287,6 +304,159 @@ body {
     letter-spacing: .01em;
 }
 
+/* Projects */
+
+#projects {
+
+    height: 100vh;
+    margin: 10vh;
+    justify-content: center;
+    color: var(--white);
+
+}
+
+#projContainer {
+
+    background-color: var(--light_maroon);
+    border-radius: 25%;
+    height: 85vh;
+    width: 105vh;
+    text-align: center;
+    padding: 5vh 5vh 5vh 5vh;
+    color: var(--white);
+    border: solid 1px white;
+    margin: auto;
+
+}
+
+.proj-carousel {
+
+    position: relative;
+    height: 85vh;
+    width: 85vh;
+    margin: auto auto auto auto;
+
+}
+
+.proj-carousel__slide-content {
+
+    height: 75%;
+    width: 80%;
+    margin: auto;
+
+}
+
+.proj-carousel__slide-content h3 {
+
+    padding: 1vh;
+
+}
+
+.proj-carousel__slide-content p {
+
+    padding: 1vh 0 0 0;
+
+}
+
+.proj-carousel__image {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
+    object-fit: cover;
+    border: solid 2px white;
+
+}
+
+.proj-carousel__image:hover {
+
+    opacity: 0.7;
+
+}
+
+.proj-carousel__track-container {
+
+    background: var(--light_maroon);
+    border-radius: 25%;
+    height: 90%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.proj-carousel__track {
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: 250ms ease-in-out;
+
+}
+
+.proj-carousel__slide {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.proj-carousel__button {
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.proj-carousel__button--left {
+
+    left: -50px;
+
+
+}
+
+.proj-carousel__button--right {
+
+    right: -50px;
+
+}
+
+.proj-carousel__button img {
+
+    width: 20px;
+
+}
+
+.proj-carousel__nav {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.proj-carousel__indicator {
+
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 0 12px;
+
+}
+
+.proj-carousel__indicator.proj-current-slide {
+
+    background: rgba(255, 255, 255, 0.9);
+
+}
 
 /* Footer */
 

@@ -15,8 +15,8 @@
             <div class="container-fluid justify-content-center">
                 <button class="btn btn-outline-danger me-4 navButton" type="button" onclick="window.location='#header';">About</button>
                 <button class="btn btn-outline-danger me-4 navButton" type="button" onclick="window.location='#experiences';">Experiences</button>
-                <button class="btn btn-outline-danger me-4 navButton" type="button">Education</button>
-                <button class="btn btn-outline-danger me-4 navButton" type="button">Projects</button>
+                <button class="btn btn-outline-danger me-4 navButton" type="button" onclick="window.location='#education';">Education</button>
+                <button class="btn btn-outline-danger me-4 navButton" type="button" onclick="window.location='#projects';">Projects</button>
                 <button class="btn btn-outline-danger me-4 navButton" type="button">Skills</button>
                 <button class="btn btn-outline-danger me-4 navButton" type="button">Resume</button>
             </div>
@@ -28,7 +28,7 @@
 
             <div id="text">
 
-                <h1>Queen Reveille</h1>
+                <h2>Queen Reveille</h2>
                 <h3>Computer Science '24</h3>
 
                 <p>
@@ -44,10 +44,10 @@
 
         <!-- Experiences -->
 
-        
-        <!-- <h1>Experiences</h1> -->
 
-        <div id="experiences">
+        <section id="experiences">
+
+            <h1>Experiences</h1>
 
             <div id="expContainer">
 
@@ -102,11 +102,11 @@
                 </div>
             </div>
 
-        </div>
+        </section>
         
         <!-- Education -->
 
-        <section class="education">
+        <section id="education">
 
             <div class="education-container">
 
@@ -114,13 +114,15 @@
 
                 <div class="edu-content">
 
-                    <img class="edu-image" src="images/logo.jpg" alt="">
+                    <img src="images/tamu-logo.png" alt="">
 
                     <div class="right-column">
 
-                        <h2>Texas A&M University</h2>
+                        <h2>School: Texas A&M University</h2>
 
-                        <h3>CSCE '24</h3>
+                        <h3>Major: Computer Science</h3>
+                        <h4>Minor: Treatology</h4>
+                        <h5>Expected Graduation: May 2024</h5>
 
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum maiores soluta earum vel nostrum? 
@@ -136,6 +138,56 @@
 
         </section>
 
+        <!-- Projects -->
+
+        <section id="projects">
+
+            <h1>Projects</h1>
+
+            <div id="projContainer">
+
+                <div class="proj-carousel">
+                    <button class="proj-carousel__button proj-carousel__button--left is-hidden">
+                        <img src="images/left.svg" alt="">
+                    </button>
+                    <div class="proj-carousel__track-container">
+                        <ul class="proj-carousel__track">
+                            <li class="proj-carousel__slide proj-current-slide">
+                                <div class="proj-carousel__slide-content">
+
+                                    <h3>Howdy Portal</h3>
+
+                                    <a href="https://howdy.tamu.edu/"><img class="proj-carousel__image" src="images/howdy-portal.jpg" alt=""></a>
+
+                                    <p>Website where Aggies can see their grades, schedule, register, and much more!</p>
+
+                                </div>
+                            </li>
+                            <li class="proj-carousel__slide">
+                                <div class="proj-carousel__slide-content">
+
+                                    <h3>Corps of Cadets</h3>
+
+                                    <a href="https://corps.tamu.edu/"><img class="proj-carousel__image" src="images/corps-cadets.jpg" alt=""></a>
+
+                                    <p>I lead the Corps of Cadets which is a large and diverse program comprised of many units or outfits, each with unique traits and offerings.</p>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="proj-carousel__button proj-carousel__button--right">
+                        <img src="images/right.svg" alt="">
+                    </button>
+                    <div class="proj-carousel__nav">
+                        <button class="proj-carousel__indicator proj-current-slide"></button>
+                        <button class="proj-carousel__indicator"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
         <!-- Footer -->
 
         <div id="footer-container">
@@ -145,8 +197,8 @@
                 <ul id="footerLine" class="nav justify-content-center border-bottom pb-3 mb-3">
                     <li class="nav-item"><button class="btn me-4 footerBtn" type="button" onclick="window.location='#header';">About</button></li>
                     <li class="nav-item"><button class="btn me-4 footerBtn" type="button" onclick="window.location='#experiences';">Experiences</button></li>
-                    <li class="nav-item"><button class="btn me-4 footerBtn" type="button">Education</button></li>
-                    <li class="nav-item"><button class="btn me-4 footerBtn" type="button">Projects</button></li>
+                    <li class="nav-item"><button class="btn me-4 footerBtn" type="button" onclick="window.location='#education';">Education</button></li>
+                    <li class="nav-item"><button class="btn me-4 footerBtn" type="button" onclick="window.location='#projects';">Projects</button></li>
                     <li class="nav-item"><button class="btn me-4 footerBtn" type="button">Skills</button></li>
                     <li class="nav-item"><button class="btn me-4 footerBtn" type="button">Resume</button></li>
                 </ul>
