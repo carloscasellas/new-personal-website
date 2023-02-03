@@ -463,8 +463,8 @@ h2 {
 
 #skills {
 
-    height: 90vh;
-    margin: auto;
+    height: 70vh;
+    margin: 10vh auto;
 
 }
 
@@ -504,6 +504,29 @@ h2 {
     width: 20vh;
     object-fit: fill;
     border-radius: 25%;
+
+}
+
+/* Resume */
+
+#resume {
+
+    height: 110vh;
+    width: 70vw;
+    margin: 10vh auto;
+    border: solid var(--white) 3px;
+    border-radius: 25px;
+    background-color: var(--light_maroon);
+
+}
+
+#resume-file {
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: solid var(--white) 2px;
+    height: 80%;
+    width: 70%;
 
 }
 
