@@ -4,6 +4,8 @@
     --white: #ffffff;
     --light_maroon: #611111;
     --gray: #cccccc;
+    --dark-gray: #212529;
+    --red: #dc3444;
 
 }
 
@@ -25,7 +27,7 @@ h1 {
     letter-spacing: .5em;  
     text-align: center;
     padding: .4em .6em;
-    color: white;
+    color: var(--white);
 }
 
 h2 {
@@ -514,7 +516,7 @@ h2 {
 
 #footer-container {
 
-    background-color: var(--light_maroon);
+    background-color: var(--dark-gray);
 
 }
 
@@ -526,7 +528,7 @@ h2 {
 
 .footerBtn:hover {
 
-    color: white;
+    color: var(--red);
 
 }
 
