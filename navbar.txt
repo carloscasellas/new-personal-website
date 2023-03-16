@@ -1,0 +1,33 @@
+<!--Navigation Bar-->
+    <nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-dark" id="navbar-hide">
+
+        <!-- Creating a flex box that makes "flex items" -->
+        <div class="navbar-header d-flex col">
+
+            <!-- Logo now takes you to my name (Eliseo Garza) via bookmark -->
+            <a class="navbar-brand" href="#introduction">
+                <img src="assets/LogoV1.png" style= width:45px style= height:30px alt="Logo">
+            </a>
+
+            <!-- ml-auto creates margins on the left and pushes dropdown toggle to the far right -->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+                <!-- Update so href takes users to bookmarked location (FIXME) -->
+                <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact-me">Contact Me</a></li>
+            </ul>
+            
+            <!-- No longer part of list in nav bar, ml-auto pushes it to the right of the navbar, it's now also a button with an outline -->
+            <!-- UPDATE RESUME LINK (FIXME) -->
+            <a href="assets/Eliseo-Resume.pdf" class="ml-auto" target="_blank"><button type="button" class="btn btn-sm btn-outline-dark" style="color: #ffffff">Resume</button></a>
+        </div>
+    </nav>

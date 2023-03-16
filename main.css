@@ -10,7 +10,7 @@
 body {
 
     background-color: var(--maroon);
-    height: 100vh;
+    height: 100%; /* chnaged height */
     width: 100%;
     background-repeat: repeat;
     background-size: cover;
@@ -77,7 +77,7 @@ h2 {
 
 #header p {
 
-    width: 50vw;
+    width: 40vmin; /* changed dimensions */
     font-size: 1vw;
 
 }
@@ -85,8 +85,8 @@ h2 {
 
 #headshot {
 
-    height: 30vh;
-    width: 30vh;
+    height: 30vmin; /* changed dimensions */
+    width: 30vmin;
     border-radius: 100%;
     border: solid white 2px;
 
@@ -96,10 +96,10 @@ h2 {
 
 #experiences {
 
-    height: 100vh;
-    margin: 10vh;
+    height: 100vmax; /* changed dimensions */
     justify-content: center;
     color: var(--white);
+    padding: 10px; /* added padding */
 }
 
 
@@ -108,11 +108,11 @@ h2 {
 
     background-color: var(--light_maroon);
     border-radius: 25%;
-    height: 85vh;
-    width: 105vh;
+    height: 85vmin; /* changed dimensions */
+    width: 85vmin;
     text-align: center;
-    padding: 5vh 5vh 5vh 5vh;
-    color: var(--white);
+    /* padding: 5vh 5vh 5vh 5vh; */
+    /* color: var(--white); */
     border: solid 1px white;
     margin: auto;
 
@@ -121,9 +121,9 @@ h2 {
 .exp-carousel {
 
     position: relative;
-    height: 85vh;
-    width: 85vh;
-    margin: auto auto auto auto;
+    height: 85vmin;
+    width: 85vmin;
+    margin: auto;
 
 }
 
@@ -159,7 +159,7 @@ h2 {
 
 .exp-carousel__track-container {
 
-    background: var(--light_maroon);
+    /* background: var(--light_maroon); */
     border-radius: 25%;
     height: 90%;
     position: relative;
@@ -309,8 +309,8 @@ h2 {
 
 #projects {
 
-    height: 100vh;
-    margin: 10vh;
+    height: 100vmax;
+    padding: 0;
     justify-content: center;
     color: var(--white);
 
@@ -320,10 +320,10 @@ h2 {
 
     background-color: var(--light_maroon);
     border-radius: 25%;
-    height: 85vh;
-    width: 105vh;
+    height: 85vmin; /* changed dimensions */
+    width: 85vmin;
     text-align: center;
-    padding: 5vh 5vh 5vh 5vh;
+    /* padding: 5vh 5vh 5vh 5vh; */
     color: var(--white);
     border: solid 1px white;
     margin: auto;
@@ -333,8 +333,8 @@ h2 {
 .proj-carousel {
 
     position: relative;
-    height: 85vh;
-    width: 85vh;
+    height: 85vmin;
+    width: 85vmin;
     margin: auto auto auto auto;
 
 }
@@ -377,7 +377,7 @@ h2 {
 
 .proj-carousel__track-container {
 
-    background: var(--light_maroon);
+    /* background: var(--light_maroon); */
     border-radius: 25%;
     height: 90%;
     position: relative;
@@ -485,6 +485,7 @@ h2 {
     display: flex;
     height: 70%;
     align-items: center;
+    flex-wrap: wrap; /* added this */
     
 }
 
