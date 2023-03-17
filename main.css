@@ -52,9 +52,10 @@ h2 {
 
     color: var(--white);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    height: 50vmin;
+    height: 100vh; /* changed height */
     border-top: solid 1px white;
     border-bottom: solid 1px white;
 
@@ -71,24 +72,42 @@ h2 {
     background-image: url("images/tamu.jpg");
     background-size: cover;
     opacity: .3;
-    height: 50vmin;
+    height: 100vh; /* changed height */
     transform: translateY(53.6px);
+
+}
+
+#text {
+
+    text-align: center; /* added this */
 
 }
 
 
 #header p {
 
-    width: 40vmin; /* changed dimensions */
-    font-size: 1vw;
+    width: 40vh; /* changed dimensions */
+    font-size: 1.5vmax;
+
+}
+
+#header h2 {
+
+    font-size: 3vmax; /* added this */
+
+}
+
+#header h3 {
+
+    font-size: 2vmax; /* added this */
 
 }
 
 
 #headshot {
 
-    height: 30vmin; /* changed dimensions */
-    width: 30vmin;
+    height: 35vh; /* changed dimensions */
+    width: 35vh;
     border-radius: 100%;
     border: solid white 2px;
 
