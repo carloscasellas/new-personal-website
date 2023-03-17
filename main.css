@@ -110,11 +110,9 @@ h2 {
 
     background-color: var(--light_maroon);
     border-radius: 25%;
-    height: 65vmin; /* changed dimensions */
+    height: 65vmin;
     width: 65vmin;
     text-align: center;
-    /* padding: 5vh 5vh 5vh 5vh; */
-    /* color: var(--white); */
     border: solid 1px white;
     margin: auto;
 
@@ -162,7 +160,6 @@ h2 {
 
 .exp-carousel__track-container {
 
-    /* background: var(--light_maroon); */
     border-radius: 25%;
     height: 90%;
     position: relative;

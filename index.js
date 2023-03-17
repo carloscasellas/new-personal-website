@@ -3,8 +3,6 @@
 const expTrack = document.querySelector('.exp-carousel__track');
 const expSlides = Array.from(expTrack.children);
 
-console.log(expSlides)
-
 const expNextButton = document.querySelector('.exp-carousel__button--right');
 const expPrevButton = document.querySelector('.exp-carousel__button--left');
 const expDotsNav = document.querySelector('.exp-carousel__nav');
@@ -122,8 +120,6 @@ expDotsNav.addEventListener('click', e => {
 
 const projTrack = document.querySelector('.proj-carousel__track');
 const projSlides = Array.from(projTrack.children);
-
-console.log(projSlides)
 
 const projNextButton = document.querySelector('.proj-carousel__button--right');
 const projPrevButton = document.querySelector('.proj-carousel__button--left');
