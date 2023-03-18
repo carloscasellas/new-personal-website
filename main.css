@@ -282,16 +282,6 @@ h2 {
     border-bottom: 1px solid white;
 }
 
-.education-container h1 {
-    text-transform: uppercase;
-    font-size: 2.5em;
-    font-weight: bold;
-    letter-spacing: .5em;  
-    text-align: center;
-    padding: .4em .6em;
-    display: block;
-}
-
 .edu-content {
     display: flex;
     justify-content: center;
@@ -484,13 +474,7 @@ h2 {
 #skills {
 
     height: 70vmin; /* changed dimensions */
-    margin: 10vmin auto; /* here too */
-
-}
-
-#skills-container {
-
-    height: 70vmin; /* changed dimensions */
+    margin: 10vmin 0 auto auto; /* here too */
     width: auto;
     background-color: var(--light_maroon);  
     border-top: solid 2px white;
@@ -505,7 +489,7 @@ h2 {
     display: flex;
     height: 70%;
     align-items: center;
-    flex-wrap: wrap; /* added this */
+    flex-wrap: wrap;
     
 }
 
